@@ -1,10 +1,10 @@
-### Caso queira copiar o bot siga as instruções abaixo
+# Caso queira copiar o bot siga as instruções abaixo
 
 **Lembrando que é um bot de discord**
 
-# Para instalar as dependências use: npm install
+### Para instalar as dependências use: npm install
 
-# E não esqueça de criar o arquivo .env com as suas especificações, seguindo o modelo abaixo: 
+### E não esqueça de criar o arquivo .env com as suas especificações, seguindo o modelo abaixo: 
 
 TOKEN=SeuToken
 CLIENT_ID=SeuClientId
