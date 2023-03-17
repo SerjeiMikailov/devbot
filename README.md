@@ -8,4 +8,3 @@
 
 - TOKEN=SeuToken
 * CLIENT_ID=SeuClientId
-+ GUILD_ID=ID do grupo onde o bot será executado
