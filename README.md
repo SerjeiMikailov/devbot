@@ -4,7 +4,7 @@
 
 ## Soph é um bot de discord multipropósito criado para sanar as necessidades do meu server pessoal do discord
 
-## Caso queira copiar o bot siga as instruções abaixo
+## Caso queira copiar o bot siga as instruções abaixo, mas fique ciente que o projeto pode ser atualizado a qualquer momento
 **Lembrando que é um bot de discord**
 
 ## Para instalar as dependências use: npm install
