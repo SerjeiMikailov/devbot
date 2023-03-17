@@ -6,6 +6,6 @@ data: new SlashCommandBuilder()
     .setDescription('Te devolve um "Pong!" na cara'),
 
 async execute(interaction) {
-    await interaction.reply("Pongada!")
+    await interaction.reply("Pong neles!")
 }
 }
