@@ -6,6 +6,6 @@ module.exports = {
         .setDescription("Repositório da Soph no github"),
 
     async execute(interaction) {
-        await interaction.reply("https://github.com/SerjeiMikailov/devbot")
+        await interaction.reply("https://github.com/SerjeiMikailov/soph_bot")
     }
 }
