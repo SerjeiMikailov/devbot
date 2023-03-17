@@ -10,7 +10,14 @@ __Para instalar as dependências use o npm install no console__
 
 ![image](https://user-images.githubusercontent.com/75023574/225799742-c0fea542-ea7b-46fb-b8ea-f2c60c25f2b5.png)
 
-__E não esqueça de criar o arquivo .env com as suas especificações, seguindo o modelo abaixo:__
+__Crie o arquivo .env no seu projeto__
+
+![image](https://user-images.githubusercontent.com/75023574/225799908-3336bbf3-3e58-440d-bdad-d5cba2682ccc.png)
+
+__Depois defina as suas variáveis de ambiente(valores no .env) como no modelo abaixo__
 
 - TOKEN=SeuToken
 * CLIENT_ID=SeuClientId
+
+### Não se esqueça que para criar o seu próprio bot você deverá utilizar o discord developer portal
+__(local onde será gerado o token do seu bot)__
