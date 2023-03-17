@@ -1,9 +1,7 @@
 const { REST, Routes } = require('discord.js')
-
 const dotenv = require('dotenv')
 dotenv.config()
 const { TOKEN, CLIENT_ID } = process.env
-
 const fs = require('node:fs')
 const path = require('node:path')
 
@@ -14,7 +12,11 @@ const commands = []
 
 for (const file of commandsFiles) {
     const command = require(`./commands/${file}`)
-    commands.push(command.data.toJSON())
+    if (command.data) {
+        commands.push(command.data.toJSON())
+    } else {
+        console.error(`A propriedade "data" é indefinida em ${file}`)
+    }
 }
 
 const rest = new REST({version: 10}).setToken(TOKEN);
@@ -29,7 +31,7 @@ const rest = new REST({version: 10}).setToken(TOKEN);
         )
         console.log(`Comandos Registrados com sucesso`)
     }
-     catch (error){
+    catch (error){
         console.error(error)
     }
 })()
