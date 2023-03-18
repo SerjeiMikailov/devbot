@@ -33,14 +33,14 @@ client.login(TOKEN)
 client.on(Events.InteractionCreate, async interaction =>{
     if (interaction.isStringSelectMenu()){
         const selected = interaction.values[0]
-        if (selected == "javascript"){
-            await interaction.reply("Documentação do Javascript: https://developer.mozilla.org/en-US/docs/Web/JavaScript")
-        } else if (selected == "python"){
-            await interaction.reply("Documentação do Python: https://www.python.org")
-        } else if (selected == "csharp"){
-            await interaction.reply("Documentação do C#: https://learn.microsoft.com/en-us/dotnet/csharp/")
-        } else if (selected == "discordjs"){
-            await interaction.reply("Documentação do Discord.js: https://discordjs.guide/#before-you-begin")
+        if (selected == "kogos"){
+            await interaction.reply("https://cdn.discordapp.com/attachments/1048273607094181949/1085952906756370432/dJdNJgHdsIwBsPB1.mp4")
+        } else if (selected == "macho"){
+            await interaction.reply("https://cdn.discordapp.com/attachments/739354143801737249/913058503621505104/descoberta_de_macho.mp4")
+        } else if (selected == "euNunca"){
+            await interaction.reply("https://cdn.discordapp.com/attachments/739354143801737249/917950374097354832/26b1df1b91b44fef90d85dc5513ee6ca.mp4")
+        } else if (selected == "et"){
+            await interaction.reply("https://youtu.be/vjJXiASPKyo?t=63")
         }
     }
     if (!interaction.isChatInputCommand()) return
