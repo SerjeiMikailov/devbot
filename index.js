@@ -2,7 +2,7 @@ const { Client, Events, GatewayIntentBits, Collection } = require('discord.js')
 
 const dotenv = require('dotenv')
 dotenv.config()
-const { TOKEN, CLIENT_ID, GUILD_ID } = process.env
+const { TOKEN } = process.env
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 
