@@ -3,7 +3,7 @@ const { SlashCommandBuilder, ActionRowBuilder, StringSelectMenuBuilder, Componen
 const row = new ActionRowBuilder()
     .addComponents(
         new StringSelectMenuBuilder()
-            .setCustomId("select")
+            .setCustomId("classics")
             .setPlaceholder("Nenhum clássico selecionado")
             .addOptions({
                 label: "kogos",
