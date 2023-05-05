@@ -1,7 +1,7 @@
 const { REST, Routes } = require('discord.js')
 const dotenv = require('dotenv')
 dotenv.config()
-const { TOKEN, CLIENT_ID } = process.env
+const { TOKEN, APPLICATION_ID } = process.env
 const fs = require('node:fs')
 const path = require('node:path')
 
@@ -26,7 +26,7 @@ const rest = new REST({version: 10}).setToken(TOKEN);
         console.log(`Fazendo o deploy de ${commands.length} comandos...`)
 
         const data = await rest.put(
-            Routes.applicationCommands(CLIENT_ID),
+            Routes.applicationCommands(APPLICATION_ID),
             {body: commands}
         )
         console.log(`Comandos Registrados com sucesso`)
