@@ -6,6 +6,6 @@ module.exports = {
         .setDescription("Ela partiuuu..."),
 
     async execute(interaction) {
-        await interaction.reply("https://www.youtube.com/watch?v=syqJAgTQdlU")
+        await interaction.reply("https://open.spotify.com/playlist/1sLPthY6Q29NL1KmVWgGB0?si=1c28b961100b4392")
     }
 }
